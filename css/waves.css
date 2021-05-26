@@ -1,0 +1,41 @@
+.wave {
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: -120px;
+	z-index: -1;
+}
+
+#first_wave {
+	bottom: -20px;
+	/* left: 100px; */
+	animation: moveWave1 8s 1.2s alternate-reverse infinite;
+}
+
+#second_wave {
+	bottom: -50px;
+	animation: moveWave2 3s 1.2s ease-in-out infinite alternate;
+}
+
+#third_wave {
+	left: -100px;
+	animation: moveWave3 3s 0.7s ease-in-out infinite alternate;
+}
+
+@keyframes moveWave1 {
+	from {
+		transform: translateX(320px);
+	}
+}
+
+@keyframes moveWave2 {
+	from {
+		transform: translateX(2px);
+	}
+}
+
+@keyframes moveWave3 {
+	from {
+		transform: translateX(600px);
+	}
+}

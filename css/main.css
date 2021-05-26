@@ -1,0 +1,45 @@
+html * {
+	font-family: Courier;
+}
+
+#content_main {
+	margin-top: 4%;
+	text-align: center;
+}
+
+#content_main * {
+	padding: 10px;
+}
+
+#title {
+	font-size: 20px;
+	color: #003049;
+}
+
+.main_buttons {
+	margin: 100px;
+	width: 20%;
+	height: 150px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.main_buttons:hover {
+	cursor: pointer;
+}
+
+#about_me_button {
+	color: #003049;
+	background-color: white;
+	border-color: #003049;
+	border-style: solid;
+	border-width: 12px;
+	border-radius: 10px;
+}
+
+#projects_button {
+	background-color: #003049;
+	border: none;
+	border-radius: 10px;
+	color: white;
+}
