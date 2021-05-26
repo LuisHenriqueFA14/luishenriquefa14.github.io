@@ -28,33 +28,36 @@ a {
   font-size: 20px;
   cursor: pointer;
   font-size: 100%;
-  padding: 4%;
   background-color: #003049;
-  margin: 100px;
 }
 
 #projects-button {
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  font-size: 100%;
+  background-color: #003049;
   border: 1px solid #003049;
-  padding-left: 79px;
-  padding-right: 79px;
   background-color: white;
   color: #003049;
   border-width: 10px;
+  text-align: center;
 }
 
 #aboutme-button {
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  font-size: 100%;
+  background-color: #003049;
   border: 10px solid #003049;
-  padding-left: 70px;
-  padding-right: 70px;
 }
 
 @media (min-width: 0px) {
   #welcome {
     margin-top: 15%;
-  }
-  .buttons {
-    font-size: 120%;
-    margin: 1%;
   }
   #projects-button {
     padding-left: 20px;
@@ -76,7 +79,6 @@ a {
   }
   .buttons {
     font-size: 100%;
-    margin: 100px;
   }
   #projects-button {
     padding-left: 80px;
@@ -98,7 +100,6 @@ a {
   }
   .buttons {
     font-size: 100%;
-    margin: 100px;
   }
   #projects-button {
     padding-left: 70px;
