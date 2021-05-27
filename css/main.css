@@ -2,7 +2,15 @@ html * {
 	font-family: Courier;
 }
 
+#github {
+	z-index: 4;
+	position: fixed;
+	left: 10px;
+	top: 10px;
+}
+
 #content_main {
+	/* display: none; */
 	margin-top: 4%;
 	text-align: center;
 }
@@ -11,7 +19,7 @@ html * {
 	padding: 10px;
 }
 
-#title {
+#main_title {
 	font-size: 20px;
 	color: #003049;
 }
@@ -22,10 +30,13 @@ html * {
 	height: 150px;
 	font-weight: bold;
 	font-size: 20px;
+	outline: none;
+	transition: transform .4s;
 }
 
 .main_buttons:hover {
 	cursor: pointer;
+	transform: scale(1.08);
 }
 
 #about_me_button {

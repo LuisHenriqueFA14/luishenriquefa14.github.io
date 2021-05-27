@@ -1,0 +1,44 @@
+@media (max-width: 860px) {
+	.wave {
+		position: fixed;
+	}
+	#first_wave {
+		margin-bottom: 10px;
+	}
+	#second_wave {
+		margin-bottom: 50px;
+	}
+	#third_wave {
+		bottom: -30px;
+		animation: smallMoveWave3 3s ease-in-out infinite alternate;
+	}
+	#content_main {
+		padding: 0;
+		margin: 0;
+		margin-top: 50px;
+	}
+	#content_main * {
+		padding: 0;
+	}
+	.main_buttons {
+		padding: 0;
+		margin: 0;
+		margin-top: 20%;
+		margin-left: 2%;
+		margin-right: 2%;
+		width: 35%;
+		height: 150px;
+	}
+
+	.return_button {
+		width: 10%;
+		text-align: center;
+		margin-top: 2%;
+		transition: transform .2s;
+	}
+
+	.repo_project {
+		font-size: 70%;
+		margin-left: 10px;
+	}
+}
