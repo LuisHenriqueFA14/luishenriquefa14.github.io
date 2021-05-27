@@ -1,0 +1,68 @@
+.wave {
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: -120px;
+	z-index: -1;
+	/* display: none; */
+}
+
+#first_wave {
+	bottom: -20px;
+	/* left: 100px; */
+	animation: moveWave1 8s 1.2s alternate-reverse infinite;
+}
+
+#second_wave {
+	bottom: -50px;
+	animation: moveWave2 3s 1.2s ease-in-out infinite alternate;
+}
+
+#third_wave {
+	left: -100px;
+	animation: moveWave3 3s ease-in-out infinite alternate;
+	/* animation: comeBack 1s ease normal; */
+	left: 0;
+	/* z-index: 1; */
+	/* animation: flyingWave 2s none normal;
+	animation: returningWave 2s none normal; */
+}
+
+@keyframes moveWave1 {
+	from {
+		transform: translateX(320px);
+	}
+}
+
+@keyframes moveWave2 {
+	from {
+		transform: translateX(0px);
+	}
+}
+
+@keyframes moveWave3 {
+	from {
+		transform: translateX(600px);
+	}
+}
+
+@keyframes flyingWave {
+	100% {
+		bottom: 100%;
+	}
+}
+
+@keyframes returningWave {
+	0% {
+		bottom: 100%;
+	}
+	100% {
+		bottom: -120px;
+	}
+}
+
+@keyframes comeBack {
+	100% {
+		left: -100px;
+	}
+}
