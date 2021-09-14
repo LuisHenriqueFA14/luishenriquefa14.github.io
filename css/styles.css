@@ -1,0 +1,103 @@
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+	font-family: 'Fira Code', monospace;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #888;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #f1f1f1;
+	border-radius: 10px;
+}
+
+
+body {
+	background-color: #000009;
+}
+
+#name {
+	color: #FFFFFF;
+	position: absolute;
+	right: 70px;
+	top: 10px;
+}
+
+#blur1 {
+	margin-left: -170px;
+}
+
+#pfp {
+	position: absolute;
+	top: 24%;
+	left: 20%;
+	border-radius: 50%;
+}
+
+#github {
+	background-color: #FFFFFF;
+	padding: 0px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 3px;
+	border-radius: 10%;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#about {
+	color: #FFFFFF;
+}
+
+#about-me-text {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#about-blur {
+	position: absolute;
+	right: -50%;
+	margin-top: -500px;
+	z-index: -1;
+}
+
+@media (max-width: 750px) {
+	#name {
+		margin-top: 35px;
+	}
+	#name h1 {
+		font-size: 150%;
+		/* margin-left: 10px; */
+		/* margin-right: 10px; */
+	}
+	#name h3 {
+		font-size: 100%;
+		/* margin-right: 10px; */
+		/* margin-left: 10px; */
+	}
+
+	#pfp {
+		margin-left: -27px;
+	}
+
+	#about-me-text {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	#about-blur {
+		left: -170px;
+	}
+}
