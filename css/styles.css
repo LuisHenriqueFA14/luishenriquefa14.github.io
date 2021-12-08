@@ -1,103 +1,80 @@
-html, body {
-    overflow-x: hidden;
+html {
+	font-family: 'Fira Code';
 }
 
 body {
-	font-family: 'Fira Code', monospace;
+	text-align: center;
+	background-color: black;
 }
 
-/* width */
-::-webkit-scrollbar {
-	width: 5px;
+#introduction {
+	margin-top: 10%;
+	margin-bottom: 12%;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-	background: #888;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-	background: #f1f1f1;
-	border-radius: 10px;
-}
-
-
-body {
-	background-color: #000009;
-}
-
-#name {
-	color: #FFFFFF;
-	position: absolute;
-	right: 70px;
-	top: 10px;
-}
-
-#blur1 {
-	margin-left: -170px;
-}
-
-#pfp {
-	position: absolute;
-	top: 24%;
-	left: 20%;
+img {
+	width: 350px;
 	border-radius: 50%;
 }
 
+h1, h2, h3, p, ul, li {
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+.diff {
+	margin: 100px;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: left;
+}
+
+.diff h2 {
+	font-size: 2.1em;
+	margin-bottom: 50px;
+	margin-left: 25px;
+}
+
+.diff p {
+	font-weight: bold;
+	font-size: 1.05em;
+}
+
+.diff li {
+	font-weight: bold;
+}
+
+#personal {
+	margin-bottom: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+	.diff {
+		margin-left: 5%;
+		margin-right: 5%;
+		text-align: left;
+	}
+
+	.diff h2 {
+		font-size: 2em;
+		margin-bottom: 30px;
+		margin-left: 30px;
+	}
+}
+
 #github {
-	background-color: #FFFFFF;
-	padding: 0px;
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 3px;
-	border-radius: 10%;
-	position: absolute;
+	position: fixed;
 	top: 10px;
 	left: 10px;
+	background-color: white;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
 }
 
-#about {
-	color: #FFFFFF;
-}
-
-#about-me-text {
-	margin-left: 20%;
-	margin-right: 20%;
-}
-
-#about-blur {
-	position: absolute;
-	right: -50%;
-	margin-top: -500px;
-	z-index: -1;
-}
-
-@media (max-width: 750px) {
-	#name {
-		margin-top: 35px;
-	}
-	#name h1 {
-		font-size: 150%;
-		/* margin-left: 10px; */
-		/* margin-right: 10px; */
-	}
-	#name h3 {
-		font-size: 100%;
-		/* margin-right: 10px; */
-		/* margin-left: 10px; */
-	}
-
-	#pfp {
-		margin-left: -27px;
-	}
-
-	#about-me-text {
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-
-	#about-blur {
-		left: -170px;
-	}
+#github * {
+	margin-top: 2px;
 }
