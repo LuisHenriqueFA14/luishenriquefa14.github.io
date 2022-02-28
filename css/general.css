@@ -1,0 +1,6 @@
+.blur {
+	height: 400px;
+	width: 400px;
+	position: fixed;
+	filter: blur(500px);
+}
