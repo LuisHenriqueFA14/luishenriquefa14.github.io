@@ -1,0 +1,76 @@
+body {
+	background-color: #010513;
+}
+
+#name-title {
+	font-weight: bold;
+	font-size: 4.2vw;
+	text-align: center;
+	margin-top: 23vh;
+	text-shadow: 2px 0 0 #04D361, -2px 0 0 #04D361, 0 2px 0 #04D361, 0 -2px 0 #04D361, 1px 1px #04D361, -1px -1px 0 #04D361, 1px -1px 0 #04D361, -1px 1px 0 #04D361;
+	color: #010513;
+}
+
+#purple-blur {
+	background: rgba(130, 87, 229, 0.73);
+	left: -10%;
+	bottom: -25%;
+}
+
+#blue-blur {
+	background: rgba(102, 227, 255, 0.73);
+	right: -10%;
+	top: -30%;
+}
+
+#buttons {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	width: 167px;
+	padding: 30px 0;
+	margin: 0 15px;
+	background-color: #8257E5;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 22px;
+	color: white;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+	#name-title {
+		margin-top: 18vh;
+		font-size: 7.5vw;
+	}
+
+	#buttons {
+		top: 60%;
+	}
+
+	.button {
+		width: 50%;
+		padding: 25px 0;
+		display: block;
+		margin: 18px auto;
+		font-size: 18px;
+	}
+
+	#purple-blur {
+		left: -30%;
+		bottom: -50%;
+	}
+
+	#blue-blur {
+		right: -55%;
+		top: -50%;
+	}
+}
