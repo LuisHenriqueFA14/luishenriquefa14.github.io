@@ -1,0 +1,53 @@
+.green {
+	color: #04D361;
+}
+
+.purple {
+	color: #8257E5
+}
+
+#text {
+	color: white;
+	font-size: 20px;
+	width: 721px;
+	height: 348px;
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	text-justify: auto;
+}
+
+#purple-blur {
+	background: rgba(130, 87, 229, 0.73);
+	left: -10%;
+	top: -25%;
+}
+
+#green-blur {
+	background: #04D361;
+	right: -10%;
+	bottom: -30%;
+}
+
+@media screen and (max-width: 600px) {
+	.title {
+		font-size: 8vw;
+	}
+
+	#text {
+		width: 90%;
+
+		font-size: 15px;
+	}
+
+	#purple-blur {
+		left: -30%;
+		top: -50%;
+	}
+
+	#green-blur {
+		right: -60%;
+		bottom: -55%;
+	}
+}
