@@ -30,3 +30,13 @@ body {
 	position: fixed;
 	filter: blur(500px);
 }
+
+.github {
+	position: fixed;
+
+	right: 15px;
+	top: 15px;
+
+	width: 40px;
+	height: 40px;
+}
